@@ -2,9 +2,9 @@
 
 点击进入官方文档：[官方文档](https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/lg/toctopics/topic_0000001698461113.html)
 
-## 一、🚀 Getting Started 环境搭建
+## 一、Getting Started 环境搭建
 > 下面所有的配置都要在有代理的环境下进行，请务必完成这一步，不要跳步。
-### 1、Clash代理
+### 1、Clash代理🚀🚀🚀
 
 <details><summary>🚀下载Clash内核</summary>
 
@@ -98,11 +98,11 @@
 
 </details>
 
-### 2、Zsh美化😊
+### 2、Zsh美化😊😊
 
 > 由于本指南不使用 oh-my-zsh ,因此使用另一个 Zsh 框架 zim 安装 powerlevel10k。
 
-<details><summary>🚀安装zsh终端</summary>
+<details><summary>😊安装zsh终端</summary>
 
 - 安装 zsh
 
@@ -112,7 +112,7 @@
 
 </details>
 
-<details><summary>🚀配置powerlevel10k</summary>
+<details><summary>😊配置powerlevel10k</summary>
 
 - 安装 zim
   ```
@@ -135,10 +135,10 @@
 
 </details>
 
-### 3、Neovim😍
+### 3、Neovim😍😍
 >nvim的github官网没有arm版本的压缩包，即不支持Arm架构,所以在昇腾的Openerul镜像上通过压缩包安装是不行的，以下是通过编译下载的方式。
 
-<details><summary>🚀下载neovim：Install the Neovim </summary>
+<details><summary>😍下载neovim：Install the Neovim </summary>
 
 - 克隆项目：
 
@@ -171,7 +171,7 @@
   ```
 
 </details>
-<details><summary>🚀安装lazyvim：Install the LazyVim Starter</summary>
+<details><summary>😍安装lazyvim：Install the LazyVim Starter</summary>
 
 - 备份当前 Neovim 文件：
 
