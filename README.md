@@ -245,6 +245,8 @@
 
   ![](./img/pytorch.jpg)
 
+</details>
+
 ### 5、Mindspore😎😎
 
 <details><summary>😎安装Mindspore</summary>
@@ -291,11 +293,13 @@
 
   ![](./img/Mindspore.jpg)
 
-### 6、OpenGauss🎶🎶🎶
+</details>
+
+### 6、OpenGauss🤔🤔🤔
 
 >官方文档：https://docs-opengauss.osinfra.cn/zh/，以下采用最新版的单节点服务器安装
 
-<details><summary>🎶获取安装包</summary>
+<details><summary>🤔获取安装包</summary>
 
 - 从openGauss开源社区下载对应平台的安装包，对于个人开发者或非企业级环境，下载极简安装包（不安装OM等组件）即可。
 
@@ -316,7 +320,7 @@
 </details>
 
 
-<details><summary>🎶单节点服务器安装</summary>
+<details><summary>🤔单节点服务器安装</summary>
 
 - 创建用户组Family。
 
@@ -362,5 +366,6 @@
 
 </details>
 
-<details><summary>🎶远程连接</summary>
+<details><summary>🤔远程连接</summary>
+
 
