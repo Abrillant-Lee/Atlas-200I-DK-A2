@@ -200,9 +200,167 @@
 
 </details>
 
+### 4、Pytorch😎😎
 
-### 4、Pytorch
+<details><summary>😎安装pytorch</summary>
 
-### 5、Mindspore
+- 安装pytorch
 
-### 6、OpenGauss
+  ```sh
+  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+  ```
+
+</details>
+
+<details><summary>😎验证pytorch</summary>
+
+- 新建.py文件
+
+  ```
+  touch pytorch_test.py
+  ```
+
+- 使用nvim进入.py文件并写验证程序
+
+  ```
+  # 创建一个PyTorch张量并打印出来，如果这一步没有报错，那么就说明MindSpore已经成功安装。
+
+  import torch
+
+  # 打印PyTorch版本
+  print(torch.__version__)
+
+  # 创建一个张量
+  x = torch.rand(5, 3)
+  print(x)
+  ```
+
+- 运行程序
+
+  ```
+  python3 ./pytorch_test.py
+  ```
+
+- 安装成功示例
+
+  ![](./img/pytorch.jpg)
+
+### 5、Mindspore😎😎
+
+<details><summary>😎安装Mindspore</summary>
+
+> Ascend310,Linux-aarch64,python3.9
+
+- 安装Mindspore
+
+  ```sh
+  pip install https://ms-release.obs.cn-north-4.myhuaweicloud.com/2.1.1/MindSpore/unified/aarch64/mindspore-2.1.1-cp39-cp39-linux_aarch64.whl --trusted-host ms-release.obs.cn-north-4.myhuaweicloud.com -i https://pypi.tuna.tsinghua.edu.cn/simple
+  ```
+
+</details>
+
+<details><summary>😎验证Mindspore</summary>
+
+- 新建.py文件
+
+  ```
+  touch Mindspore_test.py
+  ```
+
+- 使用nvim进入.py文件并写验证程序
+
+  ```
+  # 创建一个MindSpore张量并打印出来，如果这一步没有报错，那么就说明MindSpore已经成功安装。
+  import mindspore
+
+  # 打印MindSpore版本
+  print(mindspore.__version__)
+
+  # 创建一个张量
+  x = mindspore.Tensor([1.0, 2.0, 3.0])
+  print(x)
+  ```
+
+- 运行程序
+
+  ```
+  python3 ./Mindspore_test.py
+  ```
+
+- 安装成功示例
+
+  ![](./img/Mindspore.jpg)
+
+### 6、OpenGauss🎶🎶🎶
+
+>官方文档：https://docs-opengauss.osinfra.cn/zh/，以下采用最新版的单节点服务器安装
+
+<details><summary>🎶获取安装包</summary>
+
+- 从openGauss开源社区下载对应平台的安装包，对于个人开发者或非企业级环境，下载极简安装包（不安装OM等组件）即可。
+
+  ```
+  开源社区链接：https://opengauss.org/zh/download/
+  ```
+
+- 使用scp将安装文件复制到远程昇腾
+
+  ```ash
+  # 语法
+  $ scp SourceFile user@host:directory/TargetFile
+
+  # 示例
+  $ scp ./.\openGauss-5.1.0-openEuler-64bit.tar.bz2  user@192.168.137.100:/home/user
+  ```
+
+</details>
+
+
+<details><summary>🎶单节点服务器安装</summary>
+
+- 创建用户组Family。
+
+  ```
+  groupadd Family
+  ```
+
+- 创建用户组Family下的普通用户me，并设置普通用户me的密码，密码建议设置为root。
+
+  ```
+  useradd -g Family me
+  passwd me
+  ```
+
+- 使用me用户登录到openGauss包安装的主机，解压openGauss压缩包到安装目录（假定安装目录为/home/me/openGauss，请用实际值替换）。
+
+  ```
+  tar -jxf openGauss-x.x.x-操作系统-64bit.tar.bz2 -C /home/me/openGauss
+  ```
+
+- 假定解压包的路径为/home/me/openGauss,进入解压后目录下的simpleInstall。
+
+  ```
+  cd /home/me/openGauss/simpleInstall
+  ```
+
+- 执行install.sh脚本安装openGauss。
+
+  ```
+  # -w是指初始化数据库密码（gs_initdb指定），安全需要必须设置。
+  $ sh install.sh  -w xxxx
+  ```
+
+- 安装完之后进入OpenGauss数据库
+
+  ```
+  gsql -d postgres
+  ```
+
+- 安装成功示例
+
+  ![](./img/openGauss.jpg)
+
+</details>
+
+<details><summary>🎶远程连接</summary>
+
