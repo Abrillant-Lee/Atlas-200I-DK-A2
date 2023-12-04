@@ -26,7 +26,7 @@
   $ scp ./clash-linux-amd64-v1.18.0.gz  root@10.10.0.2:/root
   ```
 
-</details><br>
+</details>
 <details><summary>🚀启动Clash</summary>
 
 - 在用户目录下创建 clash 文件夹
@@ -60,7 +60,7 @@
   ./clash -d .
   ```
 
-</details><br>
+</details>
 
 <details><summary>🚀配置Linux代理</summary>
 
@@ -109,7 +109,7 @@
   yum install zsh
   ```
 
-</details><br>
+</details>
 
 <details><summary>🚀配置powerlevel10k</summary>
 
@@ -169,7 +169,7 @@
   sudo make install
   ```
 
-</details><br>
+</details>
 <details><summary>🚀安装lazyvim：Install the LazyVim Starter</summary>
 
 - 备份当前 Neovim 文件：
