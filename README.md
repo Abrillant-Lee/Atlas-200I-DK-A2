@@ -105,6 +105,7 @@
 <details><summary>🚀安装zsh终端</summary>
 
 - 安装 zsh
+
   ```
   yum install zsh
   ```
