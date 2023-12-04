@@ -20,10 +20,10 @@
 
   ```ash
   # 语法
-  $ scp SourceFile user@host:directory/TargetFile
+  scp SourceFile user@host:directory/TargetFile
 
   # 示例
-  $ scp ./clash-linux-amd64-v1.18.0.gz  root@10.10.0.2:/root
+  scp ./clash-linux-amd64-v1.18.0.gz  root@10.10.0.2:/root
   ```
 
 </details>
@@ -39,20 +39,20 @@
 
   ```
   # 解压内核文件
-  $ tar -xvf ./clash-linux-amd64-v1.18.0.gz
+  tar -xvf ./clash-linux-amd64-v1.18.0.gz
 
   # 重命名内核文件
-  $ mv ./clash-linux-arm64 clash
+  mv ./clash-linux-arm64 clash
 
   # 移动到clash执行文件到clash文件夹内
-  $ mv ../root/clash ./clash
+  mv ../root/clash ./clash
   ```
 
 - 下载 Clash 配置文件
 
   ```
   # 这是个示例，请用自己的购买代理的url
-  $ wget -O config.yaml "https://bl7gc.no-mad-world.club/link/EXxV5spf9gJDYri6?clash=x"
+  wget -O config.yaml "https://bl7gc.no-mad-world.club/link/EXxV5spf9gJDYri6?clash=x"
   ```
 
 - Start Clash!
@@ -67,7 +67,7 @@
 - 编辑 ~/.bashrc
 
   ```
-  $ vim ~/.bashrc
+  vim ~/.bashrc
   ```
 - 在最底部加上如下内容，一键配置代理
   ```
@@ -311,10 +311,10 @@
 
   ```ash
   # 语法
-  $ scp SourceFile user@host:directory/TargetFile
+  scp SourceFile user@host:directory/TargetFile
 
   # 示例
-  $ scp ./.\openGauss-5.1.0-openEuler-64bit.tar.bz2  user@192.168.137.100:/home/user
+  scp ./.\openGauss-5.1.0-openEuler-64bit.tar.bz2  user@192.168.137.100:/home/user
   ```
 
 </details>
@@ -351,7 +351,7 @@
 
   ```
   # -w是指初始化数据库密码（gs_initdb指定），安全需要必须设置。
-  $ sh install.sh  -w xxxx
+  sh install.sh  -w xxxx
   ```
 
 - 安装完之后进入OpenGauss数据库
