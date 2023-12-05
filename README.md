@@ -371,14 +371,17 @@
 
 - 正在更新中......
 
+### 遇到的问题😶😶😶😭😭😭🤡🤡🤡
 
-## 二、算法部署
+---
+
+## 二、算法部署🚀🚀🚀
 
 ### 1、Pytorch部署
 
 #### 使用ATC工具转换pytroch的pt模型文件
 
-<details><summary>pt模型转换为onnx模型文件🤔</summary>
+<details><summary>🚀pt模型转换为onnx模型文件🤔</summary>
 
 - 首先我们需要准备一个训练好的pt模型文件，假设我们已经准备好了。
 
@@ -448,7 +451,7 @@
 
 </details>
 
-<details><summary>onnx模型文件转换为om模型文件</summary>
+<details><summary>🚀onnx模型文件转换为om模型文件</summary>
 
 - 首先我们在上面已经将pt文件转化为onnx文件，这里我们是在本机进行
 
@@ -468,6 +471,11 @@
   ```
 
 </details>
+
+
+### 遇到的问题😭😭😭
+
+---
 
 ## 参与贡献
 
