@@ -417,9 +417,10 @@
   model = LSTM()
   ```
 
-- 第三步：# 加载预训练的模型参数（如果是.pt格式的文件）
-
+- 第三步：# 加载预训练的模型参数（如果是.pt格式的文件,这里的pt文件保存的时模型的状态字典）
+  >  如果pt文件保存的是LSTM的示例，需要将保存实例的pt文件变为保存状态字典的pt文件
   ```python
+  torch.save(model.state_dict(), "./model.pt") # model.state_dict()表示获取模型的状态字典，它包含了模型的所有参数和对应的权重。
   state_dict = torch.load("./model.pt")
   model.load_state_dict(state_dict)
   ```
