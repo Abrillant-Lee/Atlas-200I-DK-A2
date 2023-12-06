@@ -1,4 +1,8 @@
-﻿<details><summary>🚀下载Clash内核</summary>
+﻿### [1、Clash代理🚀🚀🚀](./modular/One/clash.md)
+
+> 在某些情况下，你可能需要配置代理来访问互联网。下面所有的配置都是在有代理的环境下进行，可以提高数百倍下载速度，尽量完成这一步，来提高开发效率。
+
+<details><summary>🚀下载Clash内核</summary>
 
 - 查看Linux系统版本
 

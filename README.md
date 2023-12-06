@@ -28,16 +28,13 @@
 
 ### [5、Mindspore😎😎](./modular/One/mindspore.md)
 
-### [6、OpenGauss🤔🤔🤔](./modular/One/opengauss.md)
+### [6、OpenGauss🤔🤔🤔](./modular/opengauss.md)
 
 > 官方文档：https://docs-opengauss.osinfra.cn/zh/，以下采用最新版的单节点服务器安装
 
-### Finaly、环境搭建问题库🤡🤡🤡
+### [Finaly、环境搭建问题库🤡🤡🤡](./modular/One/questions.md)
 
 > 如果大家配置环境时遇到问题，刚开始就当了小丑，不过没关系，可以提交问题issus，我和小伙伴们将在此处更新大家遇到的经典、有意义的问题。
-
-- 使用网卡连接，使用clash访问外网`Connection refused`
-  > 解决方法：手动更换配置Linux代理本机IP地址"127.0.0.1"
 
 ---
 
@@ -45,7 +42,7 @@
 
 ### [1、Pytorch部署](./modular/Two/pytorch.md)
 
-### Finally、算法部署问题库😭😭😭
+### [Finally、算法部署问题库😭😭😭](./modular/Two/questions.md)
 
 > 如果大家在部署算法环境时遇到问题，可以提交issus，我和小伙伴们将在此处更新大家遇到的问题。
 

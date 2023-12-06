@@ -1,4 +1,9 @@
-﻿<details><summary>安装zsh终端</summary>
+﻿### [2、Zsh美化😊😊](./modular/One/zsh.md)
+
+> 由于本指南不使用 oh-my-zsh ,因此使用另一个 Zsh 框架 zim 安装 powerlevel10k。
+
+
+<details><summary>🚀安装zsh终端</summary>
 
 - 安装 zsh
 
@@ -8,7 +13,7 @@
 
 </details>
 
-<details><summary>配置powerlevel10k</summary>
+<details><summary>🚀配置powerlevel10k</summary>
 
 - 安装 zim
 

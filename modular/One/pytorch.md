@@ -1,4 +1,6 @@
-﻿<details><summary>安装pytorch</summary>
+﻿### [4、Pytorch😎😎](./modular/One/pytorch.md)
+
+<details><summary>🚀安装pytorch</summary>
 
 - 安装pytorch
 
@@ -8,7 +10,7 @@
 
 </details>
 
-<details><summary>验证pytorch</summary>
+<details><summary>🚀验证pytorch</summary>
 
 - 新建.py文件
 

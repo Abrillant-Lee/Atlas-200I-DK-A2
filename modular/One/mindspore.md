@@ -1,4 +1,6 @@
-﻿<details><summary>安装Mindspore</summary>
+﻿### [5、Mindspore😎😎](./modular/One/mindspore.md)
+
+<details><summary>🚀安装Mindspore</summary>
 
 > Ascend310,Linux-aarch64,python3.9
 
@@ -10,7 +12,7 @@
 
 </details>
 
-<details><summary>验证Mindspore</summary>
+<details><summary>🚀验证Mindspore</summary>
 
 - 新建.py文件
 
