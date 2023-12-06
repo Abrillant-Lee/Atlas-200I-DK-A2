@@ -7,6 +7,7 @@
 ## 一、Getting Started 环境搭建
 
 ### 1、Clash代理🚀🚀🚀
+
 > 在某些情况下，你可能需要配置代理来访问互联网。下面所有的配置都是在有代理的环境下进行，可以提高数百倍下载速度，尽量完成这一步，来提高开发效率。
 
 <details><summary>🚀下载Clash内核</summary>
@@ -17,17 +18,51 @@
   hostname -a
   ```
 
-- [选择对应的clash内核下载](https://www.clash.la/archives/755/)  (点击即可)
+- [选择对应的clash内核下载](https://www.clash.la/archives/755/) (点击即可)
 
 - 使用scp将内核文件复制到远程昇腾
 
-  ```ash
+  ```
   # 语法
   scp SourceFile user@host:directory/TargetFile
 
   # 示例
   scp ./clash-linux-amd64-v1.18.0.gz  root@10.10.0.2:/root
   ```
+
+- ***补充:scp命令详解***
+>scp是 SSH 提供的一个客户端程序，用来在两台主机之间加密传送文件（即复制文件）,不了解scp命令的仔细观看，后续所有远程传输文件皆使用给scp命令进行
+
+  - scp简介
+
+    scp是 secure copy 的缩写，相当于cp命令 + SSH。它的底层是 SSH 协议，默认端口是22，相当于先使用ssh命令登录远程主机，然后再执行拷贝操作。<br>
+
+    scp主要用于以下三种复制操作。
+     - 本地复制到远程。
+     - 远程复制到本地。
+     - 两个远程系统之间的复制。
+
+     使用scp传输数据时，文件和密码都是加密的，不会泄漏敏感信息。
+
+  - scp基本语法
+
+     scp的语法类似cp的语法。
+       ```
+       scp source destination
+       ```
+     上面命令中，source是文件当前的位置，destination是文件所要复制到的位置。它们都可以包含用户名和主机名。
+
+       ```
+       scp user@host:foo.txt bar.txt
+       ```
+      上面命令将远程主机（user@host）用户主目录下的foo.txt，复制为本机当前目录的bar.txt。可以看到，主机与文件之间要使用冒号（:）分隔。
+
+      scp会先用 SSH 登录到远程主机，然后在加密连接之中复制文件。客户端发起连接后，会提示用户输入密码，这部分是跟 SSH 的用法一致的。
+
+      用户名和主机名都是可以省略的。用户名的默认值是本机的当前用户名，主机名默认为当前主机。注意，scp会使用 SSH 客户端的配置文件.ssh/config，如果配置文件里面定义了主机的别名，这里也可以使用别名连接。
+
+
+
 
 </details>
 <details><summary>🚀启动Clash</summary>
@@ -63,6 +98,10 @@
   ./clash -d .
   ```
 
+- 运行成功示例
+
+  ![](./img/clash成功示例.png)
+
 </details>
 
 <details><summary>🚀配置Linux代理</summary>
@@ -72,6 +111,7 @@
   ```
   vim ~/.bashrc
   ```
+
 - 在最底部加上如下内容，一键配置代理
   ```
   # add proxy
@@ -101,6 +141,39 @@
 
 </details>
 
+<details><summary>🚀配置完之后如何使用</summary>
+
+- 打开一个终端进入昇腾开发环境，执行clash文件
+
+  ```
+  ./clash/clash -d .
+  ```
+- 执行成功截图
+  ![](./img/clash成功示例.png)
+
+- 打开另一终端再次进入昇腾开发环境，配置系统代理
+
+  ```
+  # 执行脚本，配置代理
+  proxy
+
+  # 查看代理是否配置成功
+  echoproxy
+
+  ```
+- 验证代理是否配置成功
+
+  ```
+  # 向google.com发送一个HTTP GET请求
+  curl google.com
+  ```
+
+- 配置成功截图
+
+  ![](./img/访问Google成功截图.png)
+
+</details>
+
 ### 2、Zsh美化😊😊
 
 > 由于本指南不使用 oh-my-zsh ,因此使用另一个 Zsh 框架 zim 安装 powerlevel10k。
@@ -118,11 +191,13 @@
 <details><summary>😊配置powerlevel10k</summary>
 
 - 安装 zim
+
   ```
   curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
   ```
 
 - 编辑 Zsh 配置文件 ~/.zimrc ：
+
   ```
   vim ~/.zimrc
 
@@ -139,7 +214,8 @@
 </details>
 
 ### 3、Neovim😍😍
->nvim的github官网没有arm版本的压缩包，即不支持Arm架构,所以在昇腾的Openerul镜像上通过压缩包安装是不行的，以下是通过编译下载的方式。
+
+> nvim的github官网没有arm版本的压缩包，即不支持Arm架构,所以在昇腾的Openerul镜像上通过压缩包安装是不行的，以下是通过编译下载的方式。
 
 <details><summary>😍下载neovim：Install the Neovim </summary>
 
@@ -300,7 +376,7 @@
 
 ### 6、OpenGauss🤔🤔🤔
 
->官方文档：https://docs-opengauss.osinfra.cn/zh/，以下采用最新版的单节点服务器安装
+> 官方文档：https://docs-opengauss.osinfra.cn/zh/，以下采用最新版的单节点服务器安装
 
 <details><summary>🤔获取安装包</summary>
 
@@ -321,7 +397,6 @@
   ```
 
 </details>
-
 
 <details><summary>🤔单节点服务器安装</summary>
 
@@ -375,7 +450,8 @@
 - 正在更新中......
 
 ### Finaly、环境搭建问题库🤡🤡🤡
->如果大家配置环境时遇到问题，刚开始就当了小丑，不过没关系，可以提交问题issus，我和小伙伴们将在此处更新大家遇到的经典、有意义的问题。
+
+> 如果大家配置环境时遇到问题，刚开始就当了小丑，不过没关系，可以提交问题issus，我和小伙伴们将在此处更新大家遇到的经典、有意义的问题。
 
 ---
 
@@ -421,7 +497,9 @@
   ```
 
 - 第三步：# 加载预训练的模型参数（如果是.pt格式的文件,这里的pt文件保存的时模型的状态字典）
-  >  如果pt文件保存的是LSTM的示例，需要将保存实例的pt文件变为保存状态字典的pt文件
+
+  > 如果pt文件保存的是LSTM的示例，需要将保存实例的pt文件变为保存状态字典的pt文件
+
   ```python
   torch.save(model.state_dict(), "./model.pt") # model.state_dict()表示获取模型的状态字典，它包含了模型的所有参数和对应的权重。
   state_dict = torch.load("./model.pt")
@@ -461,11 +539,13 @@
 - 首先我们在上面已经将pt文件转化为onnx文件，这里我们是在本机进行
 
 - 第一步：将onnx文件传输到昇腾开发板上（这里我使用scp命令）
+
   ```
   scp ./model.onnx root@10.0.0.1:/pytroch
   ```
 
 - 第二步：使用ATC工具将onnx转化为om（我这里的昇腾型号是Ascend310B1）
+
   ```
   atc --model=./model.onnx --framework=5 --output=/root --soc_version=Ascend310B1
   ```
@@ -480,17 +560,19 @@
 - 正在更新中......
 
 ### Finally、算法部署问题库😭😭😭
->如果大家在部署算法环境时遇到问题，可以提交issus，我和小伙伴们将在此处更新大家遇到的问题。
+
+> 如果大家在部署算法环境时遇到问题，可以提交issus，我和小伙伴们将在此处更新大家遇到的问题。
+
 ---
 
 ## 三、上下位机交互🚀🚀🚀
->上位机：昇腾，下位机：Hi3861
 
-- 正在更新中......
+> 上位机：昇腾，下位机：Hi3861
+
+- 正在更新中.........
 
 ---
 
 ## 参与贡献
 
 本仓库由梅科尔工作室IoT的小伙伴们一起参与编写，欢迎大家对本仓库进行补充，一起帮大家更好开发华为的小滕！！！。
-
