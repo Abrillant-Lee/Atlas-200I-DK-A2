@@ -1,4 +1,9 @@
-﻿<details><summary>下载neovim：Install the Neovim </summary>
+﻿### [3、Neovim😍😍](./modular/One/neovim.md)
+
+> nvim的github官网没有arm版本的压缩包，即不支持Arm架构,所以在昇腾的Openerul镜像上通过压缩包安装是不行的，以下是通过编译下载的方式。
+
+
+<details><summary>🚀下载neovim：Install the Neovim </summary>
 
 - 克隆项目：
 
@@ -31,7 +36,7 @@
   ```
 
 </details>
-<details><summary>安装lazyvim：Install the LazyVim Starter</summary>
+<details><summary>🚀安装lazyvim：Install the LazyVim Starter</summary>
 
 - 备份当前 Neovim 文件：
 
