@@ -1,10 +1,13 @@
-<p align="center">
-<img width="210" height="180" align="left" style="float: left; margin: 0 10px 0 0;" src="img/iot水晶图-抠图版.png" alt="Iot水晶标"/>
-</br>
-<h1>🎉Maker-IoT🚀Atlas-200I-DK-A2🎉</h1>
-</p>
+<h1 align="center" >🎉Maker-IoT🚀Atlas-200I-DK-A2🎉</h1>
+
+<!-- <p align="center"> -->
+<!-- <img width="210" height="180" align="left" style="float: left; margin: 0 10px 0 0;" src="img/iot水晶图-抠图版.png" alt="Iot水晶标"/> -->
+<!-- </p> -->
+
+
 <div align="center">
 <a target="_blank" href="https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/lg/toctopics/topic_0000001698461113.html">昇腾官网文档</a>
+
 </div>
 
 ## 一、Getting Started 环境搭建
