@@ -1,5 +1,8 @@
-<h1 align="center">🎉Maker-IoT🚀Atlas-200I-DK-A2🎉</h1>
-
+<p align="center">
+<img width="210" height="180" align="left" style="float: left; margin: 0 10px 0 0;" src="img/iot水晶图-抠图版.png" alt="Iot水晶标"/>
+</br>
+<h1>🎉Maker-IoT🚀Atlas-200I-DK-A2🎉</h1>
+</p>
 <div align="center">
 <a target="_blank" href="https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/lg/toctopics/topic_0000001698461113.html">昇腾官网文档</a>
 </div>
@@ -10,7 +13,7 @@
 
 > 在某些情况下，你可能需要配置代理来访问互联网。下面所有的配置都是在有代理的环境下进行，可以提高数百倍下载速度，尽量完成这一步，来提高开发效率。
 
-<details><summary>🚀下载Clash内核</summary>
+<details><summary>1.1 下载Clash内核</summary>
 
 - 查看Linux系统版本
 
@@ -433,13 +436,13 @@
 
 ---
 
-## 二、算法部署🚀🚀🚀
+## 二、算法部署⚡⚡⚡
 
 ### 1、Pytorch部署
 
 #### 使用ATC工具转换pytroch的pt模型文件
 
-<details><summary>🚀pt模型转换为onnx模型文件🤔</summary>
+<details><summary>🚀pt模型转换为onnx模型文件</summary>
 
 - 首先我们需要准备一个训练好的pt模型文件，假设我们已经准备好了。
 
@@ -543,7 +546,7 @@
 
 ---
 
-## 三、上下位机交互🚀🚀🚀
+## 三、上下位机交互✨✨✨
 
 > 上位机：昇腾，下位机：Hi3861
 
