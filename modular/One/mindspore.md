@@ -1,4 +1,4 @@
-﻿### [5、Mindspore😎😎](./modular/One/mindspore.md)
+﻿### 5、Mindspore😎😎
 
 <details><summary>🚀安装Mindspore</summary>
 
