@@ -148,7 +148,7 @@
 
 > 由于本指南不使用 oh-my-zsh ,因此使用另一个 Zsh 框架 zim 安装 powerlevel10k。
 
-<details><summary>😊安装zsh终端</summary>
+<details><summary>安装zsh终端</summary>
 
 - 安装 zsh
 
@@ -158,7 +158,7 @@
 
 </details>
 
-<details><summary>😊配置powerlevel10k</summary>
+<details><summary>配置powerlevel10k</summary>
 
 - 安装 zim
 
@@ -187,7 +187,7 @@
 
 > nvim的github官网没有arm版本的压缩包，即不支持Arm架构,所以在昇腾的Openerul镜像上通过压缩包安装是不行的，以下是通过编译下载的方式。
 
-<details><summary>😍下载neovim：Install the Neovim </summary>
+<details><summary>下载neovim：Install the Neovim </summary>
 
 - 克隆项目：
 
@@ -220,7 +220,7 @@
   ```
 
 </details>
-<details><summary>😍安装lazyvim：Install the LazyVim Starter</summary>
+<details><summary>安装lazyvim：Install the LazyVim Starter</summary>
 
 - 备份当前 Neovim 文件：
 
@@ -251,7 +251,7 @@
 
 ### 4、Pytorch😎😎
 
-<details><summary>😎安装pytorch</summary>
+<details><summary>安装pytorch</summary>
 
 - 安装pytorch
 
@@ -261,7 +261,7 @@
 
 </details>
 
-<details><summary>😎验证pytorch</summary>
+<details><summary>验证pytorch</summary>
 
 - 新建.py文件
 
@@ -298,7 +298,7 @@
 
 ### 5、Mindspore😎😎
 
-<details><summary>😎安装Mindspore</summary>
+<details><summary>安装Mindspore</summary>
 
 > Ascend310,Linux-aarch64,python3.9
 
@@ -310,7 +310,7 @@
 
 </details>
 
-<details><summary>😎验证Mindspore</summary>
+<details><summary>验证Mindspore</summary>
 
 - 新建.py文件
 
@@ -348,7 +348,7 @@
 
 > 官方文档：https://docs-opengauss.osinfra.cn/zh/，以下采用最新版的单节点服务器安装
 
-<details><summary>🤔获取安装包</summary>
+<details><summary>获取安装包</summary>
 
 - 从openGauss开源社区下载对应平台的安装包，对于个人开发者或非企业级环境，下载极简安装包（不安装OM等组件）即可。
 
@@ -368,7 +368,7 @@
 
 </details>
 
-<details><summary>🤔单节点服务器安装</summary>
+<details><summary>单节点服务器安装</summary>
 
 - 创建用户组Family。
 
@@ -414,7 +414,7 @@
 
 </details>
 
-<details><summary>🤔远程连接</summary>
+<details><summary>远程连接</summary>
 </details>
 
 - 正在更新中......
