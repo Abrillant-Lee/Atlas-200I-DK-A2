@@ -1,6 +1,4 @@
-﻿
-
-### [6、OpenGauss🤔🤔🤔](./modular/opengauss.md)
+﻿### 6、OpenGauss🤔🤔🤔
 
 
 <details><summary>🚀获取安装包</summary>

@@ -1,4 +1,4 @@
-﻿### [4、Pytorch😎😎](./modular/One/pytorch.md)
+﻿### 4、Pytorch😎😎]
 
 <details><summary>🚀安装pytorch</summary>
 
