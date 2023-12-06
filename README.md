@@ -84,7 +84,7 @@
 
 - 在最底部加上如下内容，一键配置代理
   ```
-  # add proxy
+  # 获取默认路由的IP地址，并将其赋值给变量hostip，可直接赋值为"127.0.0.1"
   export hostip=$(ip route | grep default | awk '{print $3}')
   export socks_hostport=7890
   export http_hostport=7890
@@ -438,7 +438,7 @@
 - 接着我们需要提供一个示例输入，其形状应与你的**模型期望的输入形状相匹配。**
 
 - 第一步：导入onnx的包
-
+****
   ```python
   import torch
   import torch.onnx as onnx
