@@ -8,7 +8,7 @@
 <div align="center">
 <a target="_blank" href="https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/lg/toctopics/topic_0000001698461113.html">昇腾官网文档</a>
 
-<a target="_blank" href="https://github.com/Abrillant-Lee/Atlas-200I-DK-A2/tree/Modular">✨模块化观看此教程✨</a>
+<a target="_blank" href="https://github.com/Abrillant-Lee/Atlas-200I-DK-A2/tree/Modular">✨模块化观看此教程✨(建议点此处进行观看)</a>
 
 
 </div>
