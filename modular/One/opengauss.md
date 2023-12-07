@@ -63,7 +63,7 @@
 
 - 安装成功示例
 
-  ![](./img/openGauss.jpg)
+  ![](../../img/openGauss.jpg)
 
 </details>
 

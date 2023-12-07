@@ -42,7 +42,7 @@
 
 - 安装成功示例
 
-  ![](./img/Mindspore.jpg)
+  ![](../../img/Mindspore.jpg)
 
 </details>
 

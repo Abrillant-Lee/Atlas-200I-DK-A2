@@ -62,7 +62,7 @@
 
 - 运行成功示例
 
-  ![](./img/clash成功示例.png)
+  ![](../../img/clash成功示例.png)
 
 </details>
 
@@ -116,7 +116,7 @@
   ./clash/clash -d .
   ```
 - 执行成功截图
-  ![](./img/clash成功示例.png)
+  ![](../../img/clash成功示例.png)
 
 - 打开另一终端再次进入昇腾开发环境，配置系统代理
 
@@ -137,7 +137,7 @@
 
 - 配置成功截图
 
-  ![](./img/访问Google成功截图.png)
+  ![](../../img/访问Google成功截图.png)
 
 </details>
 

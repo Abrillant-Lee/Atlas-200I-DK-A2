@@ -41,7 +41,7 @@
 
 - 安装成功示例
 
-  ![](./img/pytorch.jpg)
+  ![](../../img/pytorch.jpg)
 
 </details>
 
