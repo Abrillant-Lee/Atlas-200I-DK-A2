@@ -560,9 +560,20 @@
 
 ---
 
-## 参与贡献
+## 🎉参与贡献🎉
 
-本仓库由梅科尔工作室IoT的小伙伴们一起参与编写，欢迎大家对本仓库进行补充，一起帮大家更好开发华为的小滕！！！。
+<p align="center">
+<!-- <img width="210" height="180" align="left" style="float: left; margin: 0 10px 0 0;" src="https://archlinuxstudio.github.io/ShellTutorial/bash.svg" alt="ArchLinuxStudio_ShellTutorial"/> -->
+<img width="210" height="180" align="left" style="float: left; margin: 0 10px 0 0;" src="./img/IOT-水晶标.jpg" alt="ArchLinuxStudio_ShellTutorial"/>
+</br>
+<h1>本项目隶属于梅科尔工作室IoT组</h1>
+
+项目由梅科尔工作室IoT的小伙伴们一起参与编写，欢迎大家对本仓库进行补充，一起帮大家更好开发华为的小滕！！！。<br>
+
+<br>
+
+</p>
+
 
 ### [如何参与贡献🥳](./become_a_contributor.md)
 >如果你对这个开源项目非常感兴趣，并且你发现了其中的Issue并有能力解决它们，或者发现了其他问题并希望参与改进，那么点击标题，将告诉你如何成为一个贡献者。
