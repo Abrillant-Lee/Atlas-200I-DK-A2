@@ -7,11 +7,11 @@
 
    - 点击右上角fork按钮
 
-        ![](./../../img/fork到自己仓库.png)
+        ![](./img/fork到自己仓库.png)
 
    - fork成功后，自己的帐号下面就可以看到了
 
-     ![](../../img/fork成功.png)
+     ![](./img/fork成功.png)
 
 
 ### 3. Clone 已经 fork 的项目
@@ -19,7 +19,7 @@
 
 要 clone 这个项目，你先打开你自己的 GitHub 主页，找到 fork 过来的项目，打开后点击右上角的 "Clone" 按钮，得到复制的地址。
 
-![](./../../img/fork_clone.png)
+![](img/fork_clone.png)
 
 ### 4. 设置克隆过来的项目
 >将原来项目的 URL 添加到你的本地代码仓库，这样你就可以随时从原来的项目 pull 最新的修改:
@@ -47,7 +47,7 @@
 
 - 点击创建request
 
-    ![](./../../img/pull_request.png)
+    ![](img/pull_request.png)
 
 - 下来是猛如虎的操作
 
