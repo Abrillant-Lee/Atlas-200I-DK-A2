@@ -18,19 +18,20 @@
 
 ### [2、Zsh美化😊😊](./modular/One/zsh.md)
 
-> 由于本指南不使用 oh-my-zsh ,因此使用另一个 Zsh 框架 zim 安装 powerlevel10k。
+> 🌺 爱美之心，人皆有之；美化终端不仅可以提升工作心情、增加个性化，同时也可以提高工作效率。本指南不使用 oh-my-zsh ,使用另一个 Zsh 框架 zim 来安装 powerlevel10k主题。
 
 ### [3、Neovim😍😍](./modular/One/neovim.md)
 
-> nvim的github官网没有arm版本的压缩包，即不支持Arm架构,所以在昇腾的Openerul镜像上通过压缩包安装是不行的，以下是通过编译下载的方式。
+>nvim是一款功能强大、高效、可定制的编辑器，适用于各种编程场景，可以帮助用户提高编辑效率。由于nvim的github官网没有arm版本的压缩包，即不支持Arm架构,所以在昇腾的Openerul镜像上通过压缩包安装是不行的，以下是通过编译下载的方式。
 
 ### [4、Pytorch😎😎](./modular/One/pytorch.md)
+>PyTorch作为深度学习框架可以提供灵活、高效和便捷的深度学习研究和开发环境。
 
 ### [5、Mindspore😎😎](./modular/One/mindspore.md)
+>MindSpore可以加速深度学习算法的研发和应用，其高效性、易用性和灵活性有助于提高模型的训练速度和精度。
 
 ### [6、OpenGauss🤔🤔🤔](./modular/One/opengauss.md)
-
-> 官方文档：https://docs-opengauss.osinfra.cn/zh/，以下采用最新版的单节点服务器安装
+>使用OpenGauss数据库可以提高企业级数据库的性能、可扩展性和安全性，同时支持多种应用场景。官方文档：https://docs-opengauss.osinfra.cn/zh/ ;以下采用最新版的单节点服务器安装
 
 ### [Finaly、环境搭建问题库🤡🤡🤡](./modular/One/questions.md)
 
@@ -40,7 +41,7 @@
 
 ## 二、算法部署⚡⚡⚡
 
-### [1、Pytorch部署](./modular/Two/pytorch.md)
+### [1、Pytorch部署⚡](./modular/Two/pytorch.md)
 
 ### [Finally、算法部署问题库😭😭😭](./modular/Two/questions.md)
 
