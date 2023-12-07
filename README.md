@@ -564,7 +564,7 @@
 
 <p align="center">
 <!-- <img width="210" height="180" align="left" style="float: left; margin: 0 10px 0 0;" src="https://archlinuxstudio.github.io/ShellTutorial/bash.svg" alt="ArchLinuxStudio_ShellTutorial"/> -->
-<img width="210" height="180" align="left" style="float: left; margin: 0 10px 0 0;" src="./img/IOT-水晶标.jpg" alt="ArchLinuxStudio_ShellTutorial"/>
+<img width="210" height="210" align="left" style="float: left; margin: 0 10px 0 0;" src="./img/IOT-水晶标.jpg" alt="ArchLinuxStudio_ShellTutorial"/>
 
 <h2>本仓库隶属于梅科尔工作室IoT组</h2>
 
@@ -576,6 +576,8 @@ Thank you to all the people who already contributed to Maker-IoT!
 <img src="./img/Abrillant-Lee.png"style="border-radius: 50%;"width=30>
 <img src="./img/Ryanzhang.png"style="border-radius: 50%;"width=26>
 <img src="./img/wei.jpg"style="border-radius: 50%;"width=26/></a>
+<br>
+<br>
 </p>
 
 
