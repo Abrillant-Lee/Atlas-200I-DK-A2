@@ -565,14 +565,19 @@
 <p align="center">
 <!-- <img width="210" height="180" align="left" style="float: left; margin: 0 10px 0 0;" src="https://archlinuxstudio.github.io/ShellTutorial/bash.svg" alt="ArchLinuxStudio_ShellTutorial"/> -->
 <img width="210" height="180" align="left" style="float: left; margin: 0 10px 0 0;" src="./img/IOT-水晶标.jpg" alt="ArchLinuxStudio_ShellTutorial"/>
-</br>
-<h1>本仓库隶属于梅科尔工作室IoT组</h1>
 
-仓库由梅科尔工作室IoT的小伙伴们一起参与编写，欢迎大家加入交流群(469363175)对本仓库进行补充，一起帮大家更好开发华为的小滕！！! <br>
+<h2>本仓库隶属于梅科尔工作室IoT组</h2>
 
-<br>
+仓库的编写得到了梅科尔工作室IoT团队小伙伴们的积极参与，我们热切欢迎大家加入我们的交流群（群号：469363175），共同为这个仓库添砖加瓦，助力大家更好地开发昇腾，期待与您的合作开发！ <br>
 
+Thank you to all the people who already contributed to Maker-IoT!
+
+<a href="https://github.com/Abrillant-Lee/Atlas-200I-DK-A2/graphs/contributors">
+<img src="./img/Abrillant-Lee.png"style="border-radius: 50%;"width=30>
+<img src="./img/Ryanzhang.png"style="border-radius: 50%;"width=26>
+<img src="./img/wei.jpg"style="border-radius: 50%;"width=26/></a>
 </p>
+
 
 
 ### [如何参与贡献🥳](./become_a_contributor.md)
