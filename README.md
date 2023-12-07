@@ -28,7 +28,7 @@
 
 ### [5、Mindspore😎😎](./modular/One/mindspore.md)
 
-### [6、OpenGauss🤔🤔🤔](./modular/opengauss.md)
+### [6、OpenGauss🤔🤔🤔](./modular/One/opengauss.md)
 
 > 官方文档：https://docs-opengauss.osinfra.cn/zh/，以下采用最新版的单节点服务器安装
 
