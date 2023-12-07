@@ -566,9 +566,9 @@
 <!-- <img width="210" height="180" align="left" style="float: left; margin: 0 10px 0 0;" src="https://archlinuxstudio.github.io/ShellTutorial/bash.svg" alt="ArchLinuxStudio_ShellTutorial"/> -->
 <img width="210" height="180" align="left" style="float: left; margin: 0 10px 0 0;" src="./img/IOT-水晶标.jpg" alt="ArchLinuxStudio_ShellTutorial"/>
 </br>
-<h1>本项目隶属于梅科尔工作室IoT组</h1>
+<h1>本仓库隶属于梅科尔工作室IoT组</h1>
 
-项目由梅科尔工作室IoT的小伙伴们一起参与编写，欢迎大家对本仓库进行补充，一起帮大家更好开发华为的小滕！！！。<br>
+项目由梅科尔工作室IoT的小伙伴们一起参与编写，欢迎大家加入交流群(469363175)对本仓库进行补充，一起帮大家更好开发华为的小滕！！! <br>
 
 <br>
 
