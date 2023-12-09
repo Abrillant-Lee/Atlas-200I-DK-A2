@@ -1,4 +1,4 @@
-﻿### 4、Pytorch😎😎]
+﻿### 4、Pytorch😎😎
 
 <details><summary>🚀安装pytorch</summary>
 
