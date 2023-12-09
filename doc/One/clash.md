@@ -7,7 +7,7 @@
 - 查看Linux系统版本
 
   ```sh
-  hostname -a
+  uname -a
   ```
 
 - [选择对应的clash内核下载](https://www.clash.la/archives/755/) (点击即可)
