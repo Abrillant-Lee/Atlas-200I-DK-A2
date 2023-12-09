@@ -82,9 +82,11 @@
 Thank you to all the people who already contributed to Maker-IoT!
 
 <a href="https://github.com/Abrillant-Lee/Atlas-200I-DK-A2/graphs/contributors">
-<img src="./img/Abrillant-Lee.png"width=30>
-<img src="./img/Ryanzhang.png"width=30>
-<img src="./img/wei.png"width=30/></a>
+<img src="./img/Abrillant-Lee.png"width=40>
+<img src="./img/Ryanzhang.png"width=40>
+<img src="./img/wei.png"width=40/>
+<img src="./img/luosen.png"width=37/>
+</a>
 <br>
 <br>
 </p>
