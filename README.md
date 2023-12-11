@@ -71,8 +71,7 @@
 >后端：django、JavaWeb 数据库:昇腾的openGauss
 
 ### [1、django项目使用openGauss数据库](./doc/database/django.md)
-既然以及装载好了openGauss，那就让django项目能够进行使用吧
-
+既然以及装载好了openGauss，那就让django项目能够进行使用
 
 - 正在更新中.........
 ---
@@ -90,9 +89,11 @@
 Thank you to all the people who already contributed to Maker-IoT!
 
 <a href="https://github.com/Abrillant-Lee/Atlas-200I-DK-A2/graphs/contributors">
-<img src="./img/Abrillant-Lee.png"width=30>
-<img src="./img/Ryanzhang.png"width=30>
-<img src="./img/wei.png"width=30/></a>
+<img src="./img/Abrillant-Lee.png"width=33>
+<img src="./img/Ryanzhang.png"width=33>
+<img src="./img/wei.png"width=33/>
+<img src="./img/luosen.png"width=30/>
+</a>
 <br>
 <br>
 </p>
