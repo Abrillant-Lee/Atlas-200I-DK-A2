@@ -1,4 +1,4 @@
-﻿### 6、OpenGauss🤔🤔🤔
+### 6、OpenGauss🤔🤔🤔
 
 
 <details><summary>🚀获取安装包</summary>
