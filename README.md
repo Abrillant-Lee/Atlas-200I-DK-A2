@@ -70,7 +70,7 @@
 ## 五、昇腾与后端交互🤩🤩🤩
 >后端：django、JavaWeb 数据库:昇腾的openGauss
 
-### [1、django项目使用openGauss数据库](./doc/database/django)
+### [1、django项目使用openGauss数据库](./doc/database/django.md)
 既然以及装载好了openGauss，那就让django项目能够进行使用吧
 
 
