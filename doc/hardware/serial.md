@@ -1,6 +1,5 @@
 ﻿
-### 1、串口硬件接线
-
+### 1、UART0硬件接线
 >开发者套件的40Pin接口上默认串口为引脚8（UART0_TX）、10（UART0_RX），对应的串口号为“/dev/ttyAMA0”。也可连接USB0作为串口，对应的串口号为“ /dev/ttyUSB0”。
 
 | 串口 | 引脚 | 功能       |
@@ -13,6 +12,8 @@
 [昇腾40pin扩展接口定义](https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/Hardware%20Interfaces/hiug/hiug_0017.html)
 
 ![](../../img/40pin.png)
+
+### USB0硬件接线
 
 ## 2、串口通讯实验
 >本实验中，我们的重点是使用前面Python库，来调用板卡上的串口资源。硬件上，通过板卡与USB转TTL模块连接到我们的电脑上， 并通过串口上位机来进行实验现象的演示和操作。

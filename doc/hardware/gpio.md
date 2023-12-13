@@ -28,3 +28,38 @@ GPIO（通用输入/输出）是一种通用引脚，可以由微控制器（MCU
 |gpio_operate set_value ***gpio_group gpio_pin value*** | 设置GPIO管脚值 | ***gpio_group*** GPIO组号，取值为[0，8]<br> ***gpio_pin*** GPIO管脚号，取值为[0，31]<br> ***value*** GPIO管脚值，取值为[0，1]<br> 当GPIO管脚方向为输入方向时，不允许设置GPIO管脚值。|
 | gpio_operate get_direction ***gpio_group gpio_pin*** | 用于查询GPIO管脚方向。 | ***gpio_group*** GPIO组号，取值为[0，8]<br> ***gpio_pin*** GPIO管脚号，取值为[0，31] |
 | gpio_operate set_direction ***gpio_group gpio_pin direction*** | 用于设置GPIO管脚方向。 | ***gpio_group*** GPIO组号，取值为[0，8]<br> ***gpio_pin*** GPIO管脚号，取值为[0，31]<br> ***direction*** GPIO管脚方向，取值为[0，1]，其中0表示输入方向，1表示输出方向 |
+
+## 4、控制led3视频演示
+>开发者套件的LED3状态指示灯为第0组的第23个管脚，这里使用shell编程来实现亮灭
+
+![](./../../img/led3.gif)
+
+- led3_on.sh脚本
+
+  ```bash
+  #!/bin/bash
+
+  # 查询led3的引脚模式(output/input)
+  gpio_operate get_direction 0 23
+
+  # 查询led3的输出电平
+  gpio_operate get_value 0 23
+
+  # 将led3的输出设置为低电平，即灭
+  gpio_operate set_value 0 23 1
+  ```
+
+- led3_off.sh
+
+  ```bash
+  #!/bin/bash
+
+  # 查询led3的引脚模式（output/input)
+  gpio_operate get_direction 0 23
+
+  # 查询led3的输出电平
+  gpio_operate get_value 0 23
+
+  # 将led3的输出设置为低电平，即灭
+  gpio_operate set_value 0 23 0
+  ```
