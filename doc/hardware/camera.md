@@ -2,6 +2,8 @@
 
 - 本教程采用的摄像头为： HIK 2K Camera（海康威视）<br>
 
+- [昇腾使用VNC安装](https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/Hardware%20Interfaces/hiug/hiug_0060.html) (VNC为：Virtual Network Computing，是一种图形界面的远程控制系统)
+
 - 将USB摄像头接入开发者套件任意一个空闲USB接口（USB 3.0 Type A）。
 
 - 连接示例：
