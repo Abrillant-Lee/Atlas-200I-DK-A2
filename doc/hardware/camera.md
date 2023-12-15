@@ -50,25 +50,7 @@
             Bytes per Line    : 2560
             Size Image        : 2457600
             Colorspace        : Default
-            Transfer Function : Default (maps to Rec. 709)
-            YCbCr/HSV Encoding: Default (maps to ITU-R 601)
-            Quantization      : Default (maps to Limited Range)
-            Flags             :
-    Crop Capability Video Capture:
-            Bounds      : Left 0, Top 0, Width 1280, Height 960
-            Default     : Left 0, Top 0, Width 1280, Height 960
-            Pixel Aspect: 1/1
-    Selection: crop_default, Left 0, Top 0, Width 1280, Height 960
-    Selection: crop_bounds, Left 0, Top 0, Width 1280, Height 960
-    Streaming Parameters Video Capture:
-            Capabilities     : timeperframe
-            Frames per second: 5.000 (5/1)
-            Read buffers     : 0
-                        brightness 0x00980900 (int)    : min=1 max=255 step=1 default=128 value=128
-                        contrast 0x00980901 (int)    : min=1 max=255 step=1 default=128 value=128
-                        saturation 0x00980902 (int)    : min=1 max=255 step=1 default=128 value=128
-                                hue 0x00980903 (int)    : min=0 max=255 step=1 default=128 value=128
-    white_balance_temperature_auto 0x0098090c (bool)   : default=0 value=1
+            ......
   ```
 
 ## 2、拍照
