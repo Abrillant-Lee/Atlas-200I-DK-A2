@@ -8,6 +8,66 @@
 
     <img src="../../img/camera.jpg" width ="400">
 
+- 验证连接
+
+  ```bash
+  #查看usb设备
+  lsusb
+
+  #连接成功示例
+  Bus 003 Device 003: ID 2bdf:028a SN0002 HIK 2K Camera
+  ```
+
+- 检测USB摄像头工作是否正常
+
+  ```bash
+  sudo v4l2-ctl -d /dev/video0 --all
+
+  #成功示例
+    Driver Info (not using libv4l2):
+            Driver name   : uvcvideo
+            Card type     : HIK 2K Camera: HIK 2K Camera
+            Bus info      : usb-xhci-hcd.1.auto-1.1
+            Driver version: 5.10.0
+            Capabilities  : 0x84A00001
+                    Video Capture
+                    Metadata Capture
+                    Streaming
+                    Extended Pix Format
+                    Device Capabilities
+            Device Caps   : 0x04200001
+                    Video Capture
+                    Streaming
+                    Extended Pix Format
+    Priority: 2
+    Video input : 0 (Input 1: ok)
+    Format Video Capture:
+            Width/Height      : 1280/960
+            Pixel Format      : 'YUYV'
+            Field             : None
+            Bytes per Line    : 2560
+            Size Image        : 2457600
+            Colorspace        : Default
+            Transfer Function : Default (maps to Rec. 709)
+            YCbCr/HSV Encoding: Default (maps to ITU-R 601)
+            Quantization      : Default (maps to Limited Range)
+            Flags             :
+    Crop Capability Video Capture:
+            Bounds      : Left 0, Top 0, Width 1280, Height 960
+            Default     : Left 0, Top 0, Width 1280, Height 960
+            Pixel Aspect: 1/1
+    Selection: crop_default, Left 0, Top 0, Width 1280, Height 960
+    Selection: crop_bounds, Left 0, Top 0, Width 1280, Height 960
+    Streaming Parameters Video Capture:
+            Capabilities     : timeperframe
+            Frames per second: 5.000 (5/1)
+            Read buffers     : 0
+                        brightness 0x00980900 (int)    : min=1 max=255 step=1 default=128 value=128
+                        contrast 0x00980901 (int)    : min=1 max=255 step=1 default=128 value=128
+                        saturation 0x00980902 (int)    : min=1 max=255 step=1 default=128 value=128
+                                hue 0x00980903 (int)    : min=0 max=255 step=1 default=128 value=128
+    white_balance_temperature_auto 0x0098090c (bool)   : default=0 value=1
+  ```
 
 ## 2、拍照
 
