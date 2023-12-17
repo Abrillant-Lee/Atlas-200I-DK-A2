@@ -1,0 +1,14 @@
+{
+  "name": "atlas-200i-dk-a2",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\" >🎉Maker-IoT🚀Atlas-200I-DK-A2🎉</h1>",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "author": "",
+  "license": "ISC"
+}
