@@ -10,5 +10,8 @@
     "test": "exit 0"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+  "@Maker-IoT-one:registry": "https://npm.pkg.github.com"
+  }
 }
