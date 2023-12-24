@@ -1,12 +1,7 @@
 <h1 align="center" >🎉Maker-IoT🚀Atlas-200I-DK-A2🎉</h1>
 
-<!-- <p align="center"> -->
-<!-- <img width="210" height="180" align="left" style="float: left; margin: 0 10px 0 0;" src="img/iot水晶图-抠图版.png" alt="Iot水晶标"/> -->
-<!-- </p> -->
-
-
 <div align="center">
-<a target="_blank" href="https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/lg/toctopics/topic_0000001698461113.html">昇腾官网文档</a>
+👋🏼此教程更偏向昇腾的Linux系统的操作，请优先学习<a target="_blank" href="https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/lg/toctopics/topic_0000001698461113.html">昇腾文档</a>👋🏼
 
 </div>
 
