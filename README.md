@@ -11,7 +11,7 @@
 <a href="https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/lg/toctopics/topic_0000001698461113.html"><img src="https://img.shields.io/badge/昇腾-文档-blue.svg?style=flat-square"></a>
 <a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-Gitee-blueviolet.svg?style=flat-square"></a>
 <a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-论坛-ff69b4.svg?style=flat-square"></a>
-<a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-开发者社区-9cf.svg?style=flat-square"></a>
+<a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-开发者社区-8cf.svg?style=flat-square"></a>
 </div>
 
 <div style="font-size:2.0em" align=center>
@@ -29,19 +29,19 @@
 
 ## 目录
 
-- 一、Getting Started 环境搭建
-  - [1、Clash代理🚀🚀🚀](#1clash代理)
-  - [2、Zsh美化😊😊](#2zsh美化)
-  - [3、Neovim😍😍](#3neovim)
-  - [4、Pytorch😎😎](#4pytorch)
-  - [5、Mindspore😎😎](#5mindspore)
-  - [6、OpenGauss🤔🤔🤔](#6opengauss)
-  - [Finaly、环境搭建问题库🤡🤡🤡](#finaly环境搭建问题库)
+- 一、Getting Started 环境搭建🚀🚀🚀
+  - [1、Clash代理](#1clash代理)
+  - [2、Zsh美化](#2zsh美化)
+  - [3、Neovim](#3neovim)
+  - [4、Pytorch](#4pytorch)
+  - [5、Mindspore](#5mindspore)
+  - [6、OpenGauss](#6opengauss)
+  - [Finaly、环境搭建问题库🤡](#finaly环境搭建问题库)
 - 二、算法部署⚡⚡⚡
-  - [1、Pytorch部署⚡](#1pytorch部署)
-  - [Finally、算法部署问题库😭😭😭](#finally算法部署问题库)
+  - [1、Pytorch部署](#1pytorch部署)
+  - [Finally、算法部署问题库](#finally算法部署问题库)
 - 三、深度学习之“推理代码”⚡⚡⚡
-  - [1、何为“推理”🤔？](#1何为推理)
+  - [1、何为“推理”？](#1何为推理)
   - [2、pytorch框架的“推理”](#2pytorch框架的推理)
 - 四、玩转昇腾硬件(Shell)✌🏼✌🏼✌🏼
   - [1、玩转GPIO](#1玩转gpio)
@@ -49,9 +49,9 @@
   - [3、玩转摄像头](#3玩转摄像头)
   - [4、玩转音频](#4玩转音频)
 - 五、上下位机交互✨⭐🌟
-  - [1、昇腾和小熊派串口通信✨](./doc/hardware/hi3861_serial.md)
+  - [1、昇腾和小熊派串口通信](./doc/hardware/hi3861_serial.md)
 
-- 六、昇腾与后端交互🤩🤩🤩
+- 六、昇腾与后端交互
   - [1、django项目使用openGauss数据库](./doc/database/django.md)
 
 
