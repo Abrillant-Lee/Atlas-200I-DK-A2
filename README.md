@@ -8,9 +8,9 @@
   </p>
 </div>
 
-<div align="center">
+<!-- <div align="center">
   <img src="./img/IOT-水晶标.jpg" width="200px">
-</div>
+</div> -->
 
 <div align="center">
 <a href="https://www.hiascend.com/"><img src="https://img.shields.io/badge/昇腾-官网-red.svg?style=flat-square"></a>
@@ -22,19 +22,16 @@
 <a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-开发者社区-9cf.svg?style=flat-square"></a>
 </div>
 
-<img src="https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square" alt="license">
-<img src="https://img.shields.io/badge/version-v1.0-green.svg?style=flat-square" alt="version">
-<br>
-
 <div style="font-size:2.0em" align=center>
   <p>
+
+  ![GitHub stars](https://img.shields.io/github/stars/Abrillant-Lee/Atlas-200I-DK-A2?style=social)
   <a href="https://github.com/Maker-IoT-one/Atlas-200I-DK-A2/pulls"><img src="https://img.shields.io/badge/Pull%20Request-Click%20me-%23293241?style=flat-square&labelColor=%23293241&color=%233D5A80"></a>
   <a href="https://github.com/Maker-IoT-one/Atlas-200I-DK-A2/issues"><img src="https://img.shields.io/badge/Issues-Click%20me-%23293241?style=flat-square&labelColor=%23293241&color=%23EE6C4D"></a>
   <a href="https://github.com/Maker-IoT-one/Atlas-200I-DK-A2/stargazers"><img src="https://img.shields.io/badge/Stars-Click%20me-%23293241?style=flat-square&labelColor=%23293241&color=%23E0FBFC"></a>
   <a href="https://github.com/Maker-IoT-one/Atlas-200I-DK-A2/graphs/contributors"><img src="https://img.shields.io/badge/Members-Click%20me-%23293241?style=flat-square&labelColor=%23293241&color=%2398C1D9"></a>
   </p>
 
-![GitHub stars](https://img.shields.io/github/stars/Abrillant-Lee/Atlas-200I-DK-A2?style=social)
 
 </div>
 
