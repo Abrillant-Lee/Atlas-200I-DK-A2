@@ -1,7 +1,16 @@
-<h1 align="center" >🎉Maker-IoT🚀Atlas-200I-DK-A2🎉</h1>
+****<h1 align="center" >🎉Maker-IoT🚀Atlas-200I-DK-A2🎉</h1>
 
 <div align="center">
-👋🏼此教程更偏向昇腾的Linux系统的操作，请优先学习<a target="_blank" href="https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/lg/toctopics/topic_0000001698461113.html">昇腾文档</a>👋🏼
+👋🏼**此教程更偏向昇腾的Linux系统的操作**，请优先学习<a target="_blank" href="https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/lg/toctopics/topic_0000001698461113.html">昇腾文档</a>👋🏼
+
+<div style="font-size:2.0em" align=center>
+  <p>
+  <a href="https://github.com/Maker-IoT-one/Atlas-200I-DK-A2/pulls"><img src="https://img.shields.io/badge/Pull%20Request-Click%20me-%23293241?style=flat-square&labelColor=%23293241&color=%233D5A80"></a>
+  <a href="https://github.com/Maker-IoT-one/Atlas-200I-DK-A2/issues"><img src="https://img.shields.io/badge/Issues-Click%20me-%23293241?style=flat-square&labelColor=%23293241&color=%23EE6C4D"></a>
+  <a href="https://github.com/Maker-IoT-one/Atlas-200I-DK-A2/stargazers"><img src="https://img.shields.io/badge/Stars-Click%20me-%23293241?style=flat-square&labelColor=%23293241&color=%23E0FBFC"></a>
+  <a href="https://github.com/Maker-IoT-one/Atlas-200I-DK-A2/graphs/contributors"><img src="https://img.shields.io/badge/Members-Click%20me-%23293241?style=flat-square&labelColor=%23293241&color=%2398C1D9"></a>
+  </p>
+</div>
 
 </div>
 
@@ -14,7 +23,7 @@
 ### [2、Zsh美化😊😊](./doc/terminal/zsh.md)
 
 > 🌺 爱美之心，人皆有之；美化终端不仅可以提升工作心情、增加个性化，同时也可以提高工作效率。本指南不使用 oh-my-zsh ,使用另一个 Zsh 框架 zim 来安装 powerlevel10k主题。
-
+****
 ### [3、Neovim😍😍](./doc/editor/neovim.md)
 
 >nvim是一款功能强大、高效、可定制的编辑器，适用于各种编程场景，可以帮助用户提高编辑效率。由于nvim的github官网没有arm版本的压缩包，即不支持Arm架构,所以在昇腾的Openerul镜像上通过压缩包安装是不行的，以下是通过编译下载的方式。
