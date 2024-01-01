@@ -1,8 +1,29 @@
 <h1 align="center" >🎉Maker-IoT🚀Atlas-200I-DK-A2🎉</h1>
 
+<!-- <div align="center"> -->
+<!-- 👋🏼 ，请优先学习<a target="_blank" href="https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/lg/toctopics/topic_0000001698461113.html">昇腾文档</a>👋🏼 -->
 <div align="center">
-👋🏼**此教程更偏向昇腾的Linux系统的操作**，请优先学习<a target="_blank" href="https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/lg/toctopics/topic_0000001698461113.html">昇腾文档</a>👋🏼
+  <p>
+    <strong>本仓库是梅科尔工作室IoT组成员们对昇腾的开发经验总结，教程更偏向昇腾的Linux系统的操作,旨在帮助大家更好地学习昇腾，欢迎大家加入我们的交流群（群号：469363175）</strong>
+  </p>
+</div>
 
+<div align="center">
+  <img src="./img/IOT-水晶标.jpg" width="200px">
+</div>
+
+<div align="center">
+<a href="https://www.hiascend.com/"><img src="https://img.shields.io/badge/昇腾-官网-red.svg?style=flat-square"></a>
+<a href="https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/lg/toctopics/topic_0000001698461113.html"><img src="https://img.shields.io/badge/昇腾-文档-blue.svg?style=flat-square"></a>
+<a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-Gitee-blueviolet.svg?style=flat-square"></a>
+<a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-论坛-ff69b4.svg?style=flat-square"></a>
+<a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-开发者社区-9cf.svg?style=flat-square"></a>
+<a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-开发者社区-9cf.svg?style=flat-square"></a>
+<a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-开发者社区-9cf.svg?style=flat-square"></a>
+</div>
+
+<img src="https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square" alt="license">
+<img src="https://img.shields.io/badge/version-v1.0-green.svg?style=flat-square" alt="version">
 <br>
 
 <div style="font-size:2.0em" align=center>
@@ -12,11 +33,40 @@
   <a href="https://github.com/Maker-IoT-one/Atlas-200I-DK-A2/stargazers"><img src="https://img.shields.io/badge/Stars-Click%20me-%23293241?style=flat-square&labelColor=%23293241&color=%23E0FBFC"></a>
   <a href="https://github.com/Maker-IoT-one/Atlas-200I-DK-A2/graphs/contributors"><img src="https://img.shields.io/badge/Members-Click%20me-%23293241?style=flat-square&labelColor=%23293241&color=%2398C1D9"></a>
   </p>
-</div>
+
+![GitHub stars](https://img.shields.io/github/stars/Abrillant-Lee/Atlas-200I-DK-A2?style=social)
 
 </div>
 
-## 一、Getting Started 环境搭建
+
+## 目录
+
+- 一、Getting Started 环境搭建
+  - [1、Clash代理🚀🚀🚀](#1clash代理)
+  - [2、Zsh美化😊😊](#2zsh美化)
+  - [3、Neovim😍😍](#3neovim)
+  - [4、Pytorch😎😎](#4pytorch)
+  - [5、Mindspore😎😎](#5mindspore)
+  - [6、OpenGauss🤔🤔🤔](#6opengauss)
+  - [Finaly、环境搭建问题库🤡🤡🤡](#finaly环境搭建问题库)
+- 二、算法部署⚡⚡⚡
+  - [1、Pytorch部署⚡](#1pytorch部署)
+  - [Finally、算法部署问题库😭😭😭](#finally算法部署问题库)
+- 三、深度学习之“推理代码”⚡⚡⚡
+  - [1、何为“推理”🤔？](#1何为推理)
+  - [2、pytorch框架的“推理”](#2pytorch框架的推理)
+- 四、玩转昇腾硬件(Shell)✌🏼✌🏼✌🏼
+  - [1、玩转GPIO](#1玩转gpio)
+  - [2、玩转串口](#2玩转串口)
+  - [3、玩转摄像头](#3玩转摄像头)
+  - [4、玩转音频](#4玩转音频)
+- 五、上下位机交互✨⭐🌟
+  - [1、昇腾和小熊派串口通信✨](./doc/hardware/hi3861_serial.md)
+
+- 六、昇腾与后端交互🤩🤩🤩
+  - [1、django项目使用openGauss数据库](./doc/database/django.md)
+
+<!-- ## 一、Getting Started 环境搭建
 
 ### [1、Clash代理🚀🚀🚀](./doc/network/clash.md)
 
@@ -97,7 +147,7 @@
 既然以及装载好了openGauss，那就让django项目能够进行使用
 
 - 正在更新中.........
----
+--- -->
 
 # 🎉参与贡献🎉
 
