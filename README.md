@@ -18,8 +18,6 @@
 <a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-Gitee-blueviolet.svg?style=flat-square"></a>
 <a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-论坛-ff69b4.svg?style=flat-square"></a>
 <a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-开发者社区-9cf.svg?style=flat-square"></a>
-<a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-开发者社区-9cf.svg?style=flat-square"></a>
-<a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-开发者社区-9cf.svg?style=flat-square"></a>
 </div>
 
 <div style="font-size:2.0em" align=center>
