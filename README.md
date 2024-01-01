@@ -1,7 +1,9 @@
-****<h1 align="center" >🎉Maker-IoT🚀Atlas-200I-DK-A2🎉</h1>
+<h1 align="center" >🎉Maker-IoT🚀Atlas-200I-DK-A2🎉</h1>
 
 <div align="center">
 👋🏼**此教程更偏向昇腾的Linux系统的操作**，请优先学习<a target="_blank" href="https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/lg/toctopics/topic_0000001698461113.html">昇腾文档</a>👋🏼
+
+<br>
 
 <div style="font-size:2.0em" align=center>
   <p>
