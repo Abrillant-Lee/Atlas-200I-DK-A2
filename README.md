@@ -10,8 +10,8 @@
 <a href="https://www.hiascend.com/"><img src="https://img.shields.io/badge/昇腾-官网-red.svg?style=flat-square"></a>
 <a href="https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/lg/toctopics/topic_0000001698461113.html"><img src="https://img.shields.io/badge/昇腾-文档-blue.svg?style=flat-square"></a>
 <a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-Gitee-blueviolet.svg?style=flat-square"></a>
-<a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-论坛-ff69b4.svg?style=flat-square"></a>
-<a href="https://gitee.com/ascend"><img src="https://img.shields.io/badge/昇腾-开发者社区-8cf.svg?style=flat-square"></a>
+<a href="https://www.hiascend.com/forum/"><img src="https://img.shields.io/badge/昇腾-论坛-ff69b4.svg?style=flat-square"></a>
+<a href="https://www.hiascend.com/developer"><img src="https://img.shields.io/badge/昇腾-开发者社区-8cf.svg?style=flat-square"></a>
 </div>
 
 <div style="font-size:2.0em" align=center>
