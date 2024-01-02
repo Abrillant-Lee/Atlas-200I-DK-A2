@@ -30,26 +30,27 @@
 ## 目录
 
 - 一、Getting Started 环境搭建🚀🚀🚀
-  - [1、Clash代理](#1clash代理)
-  - [2、Zsh美化](#2zsh美化)
-  - [3、Neovim](#3neovim)
-  - [4、Pytorch](#4pytorch)
-  - [5、Mindspore](#5mindspore)
-  - [6、OpenGauss](#6opengauss)
-  - [Finaly、环境搭建问题库🤡](#finaly环境搭建问题库)
+  - [1、Clash代理](./doc/network/clash.md)
+  - [2、Zsh美化](./doc/terminal/zsh.md)
+  - [3、Neovim](./doc/editor/neovim.md)
+  - [4、Pytorch](./doc/deep_learning/pytorch/config.md)
+  - [5、Mindspore](./doc/deep_learning/mindspore/config.md)
+  - [6、OpenGauss](./doc/contribute/become_a_contributor.md)
+  - [Finaly、环境搭建问题库🤡](./doc/questions/questions_one.md)
 - 二、算法部署⚡⚡⚡
-  - [1、Pytorch部署](#1pytorch部署)
-  - [Finally、算法部署问题库](#finally算法部署问题库)
+  - [1、Pytorch部署](./doc/deep_learning/pytorch/model_conversion.md)
+  - [Finally、算法部署问题库](./doc/questions/questions_two.md)
 - 三、深度学习之“推理代码”⚡⚡⚡
-  - [1、何为“推理”？](#1何为推理)
-  - [2、pytorch框架的“推理”](#2pytorch框架的推理)
+  - [1、何为“推理”？](./doc/deep_learning/explain.md)
+  - [2、pytorch框架的“推理”](./doc/deep_learning/pytorch/pytorch_predict.md)
 - 四、玩转昇腾硬件(Shell)✌🏼✌🏼✌🏼
-  - [1、玩转GPIO](#1玩转gpio)
-  - [2、玩转串口](#2玩转串口)
-  - [3、玩转摄像头](#3玩转摄像头)
-  - [4、玩转音频](#4玩转音频)
+  - [1、玩转GPIO](./doc/hardware/gpio.md)
+  - [2、玩转串口](./doc/hardware/serial.md)
+  - [3、玩转摄像头](./doc/hardware/camera.md)
+  - [4、玩转音频](./doc/hardware/audio.md)
 - 五、上下位机交互✨⭐🌟
   - [1、昇腾和小熊派串口通信](./doc/hardware/hi3861_serial.md)
+  - [2、昇腾和小熊派网络通信](./doc/hardware/hi3861_network.md)
 
 - 六、昇腾与后端交互
   - [1、django项目使用openGauss数据库](./doc/database/django.md)
