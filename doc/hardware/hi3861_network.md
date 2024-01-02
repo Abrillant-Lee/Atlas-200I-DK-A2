@@ -6,7 +6,7 @@
 - 小熊派
 - [USB WiFi网卡](https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC1/Hardware%20Interfaces/hiug/hiug_0059.html)
 
-    <img src="../../img/socket_接线.jpg" width="300">
+    <img src="../../img/socket_接线.jpg" width="500">
 
 ## 二、网络编程程序
 
