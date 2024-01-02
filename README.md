@@ -50,7 +50,7 @@
   - [4、玩转音频](./doc/hardware/audio.md)
 - 五、上下位机交互✨⭐🌟
   - [1、昇腾和小熊派串口通信](./doc/hardware/hi3861_serial.md)
-  - [2、昇腾和小熊派网络通信](./doc/hardware/hi3861_network.md)
+  - [2、昇腾和小熊派网络socket通信](./doc/hardware/hi3861_network.md)
 
 - 六、昇腾与后端交互
   - [1、django项目使用openGauss数据库](./doc/database/django.md)
