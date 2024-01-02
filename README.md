@@ -56,13 +56,13 @@
   - [1、django项目使用openGauss数据库](./doc/database/django.md)
 
 
-# 🎉参与贡献🎉
+## 🎉参与贡献🎉
 
 <p align="center">
 <!-- <img width="210" height="180" align="left" style="float: left; margin: 0 10px 0 0;" src="https://archlinuxstudio.github.io/ShellTutorial/bash.svg" alt="ArchLinuxStudio_ShellTutorial"/> -->
 <img width="210" height="210" align="left" style="float: left; margin: 0 10px 0 0;" src="./img/IOT-水晶标.jpg" alt="ArchLinuxStudio_ShellTutorial"/>
 
-<h2>本仓库隶属于梅科尔工作室IoT组</h2>
+<h3>本仓库隶属于梅科尔工作室IoT组</h3>
 
 仓库的编写得到了梅科尔工作室IoT团队小伙伴们的积极参与，我们热切欢迎大家加入我们的交流群（群号：469363175），共同为这个仓库添砖加瓦，助力大家更好地开发昇腾，期待与您的合作开发！ <br>
 
@@ -74,8 +74,6 @@ Thank you to all the people who already contributed to Maker-IoT!
 <img src="./img/wei.png"width=33/>
 <img src="./img/luosen.png"width=30/>
 </a>
-<br>
-<br>
 </p>
 
 
