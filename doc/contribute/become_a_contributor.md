@@ -1,4 +1,4 @@
-﻿## **Become a contributor🥳**
+﻿## Become a contributor🥳
 
 ### 1. 注册github账号
 >进入github.com官网，点击右上角 Sign up按钮一顿猛操作就可以了，不多说了，相信你能搞定。

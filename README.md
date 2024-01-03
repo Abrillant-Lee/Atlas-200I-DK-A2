@@ -35,7 +35,7 @@
   - [3、Neovim](./doc/editor/neovim.md)
   - [4、Pytorch](./doc/deep_learning/pytorch/config.md)
   - [5、Mindspore](./doc/deep_learning/mindspore/config.md)
-  - [6、OpenGauss](./doc/contribute/become_a_contributor.md)
+  - [6、OpenGauss](./doc/database/opengauss.md)
   - [Finaly、环境搭建问题库🤡](./doc/questions/questions_one.md)
 - 二、算法部署⚡⚡⚡
   - [1、Pytorch部署](./doc/deep_learning/pytorch/model_conversion.md)

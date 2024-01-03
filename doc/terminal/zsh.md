@@ -1,6 +1,6 @@
 ### 2、Zsh美化😊😊
 
-> 由于本指南不使用 oh-my-zsh ,因此使用另一个 Zsh 框架 zim 安装 powerlevel10k。
+> 🌺 爱美之心，人皆有之；美化终端不仅可以提升工作心情、增加个性化，同时也可以提高工作效率。本指南不使用 oh-my-zsh ,使用另一个 Zsh 框架 zim 来安装 powerlevel10k主题。
 
 
 <details><summary>🚀安装zsh终端</summary>
