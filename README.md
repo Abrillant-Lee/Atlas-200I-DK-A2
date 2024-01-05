@@ -35,7 +35,7 @@
   - [3、Neovim](./doc/editor/neovim.md)
   - [4、Pytorch](./doc/deep_learning/pytorch/config.md)
   - [5、Mindspore](./doc/deep_learning/mindspore/config.md)
-  - [6、OpenGauss](./doc/contribute/become_a_contributor.md)
+  - [6、OpenGauss](./doc/database/opengauss.md)
   - [Finaly、环境搭建问题库🤡](./doc/questions/questions_one.md)
 - 二、算法部署⚡⚡⚡
   - [1、Pytorch部署](./doc/deep_learning/pytorch/model_conversion.md)
@@ -50,7 +50,6 @@
   - [2、玩转串口](./doc/hardware/serial.md)
   - [3、玩转摄像头](./doc/hardware/camera.md)
   - [4、玩转音频](./doc/hardware/audio.md)
-  - []
 - 五、上下位机交互✨⭐🌟
   - [1、昇腾和小熊派串口通信](./doc/hardware/hi3861_serial.md)
   - [2、昇腾和小熊派网络socket通信](./doc/hardware/hi3861_network.md)

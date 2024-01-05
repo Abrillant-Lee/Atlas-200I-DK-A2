@@ -1,4 +1,5 @@
 ﻿### 5、Mindspore😎😎
+>MindSpore可以加速深度学习算法的研发和应用，其高效性、易用性和灵活性有助于提高模型的训练速度和精度。
 
 <details><summary>🚀安装Mindspore</summary>
 

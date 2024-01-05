@@ -1,5 +1,5 @@
 ### 6、OpenGauss🤔🤔🤔
-
+>使用OpenGauss数据库可以提高企业级数据库的性能、可扩展性和安全性，同时支持多种应用场景。官方文档：https://docs-opengauss.osinfra.cn/zh/ ;以下采用最新版的单节点服务器安装
 
 <details><summary>🚀获取安装包</summary>
 
