@@ -39,6 +39,8 @@
   - [Finaly、环境搭建问题库🤡](./doc/questions/questions_one.md)
 - 二、算法部署⚡⚡⚡
   - [1、Pytorch部署](./doc/deep_learning/pytorch/model_conversion.md)
+  - [2、ACL应用](./doc/deep_learning/ACL/图像分类.md)
+  - [2、MindX SDK应用](./doc/deep_learning/pytorch/model_conversion.md)
   - [Finally、算法部署问题库](./doc/questions/questions_two.md)
 - 三、深度学习之“推理代码”⚡⚡⚡
   - [1、何为“推理”？](./doc/deep_learning/explain.md)
