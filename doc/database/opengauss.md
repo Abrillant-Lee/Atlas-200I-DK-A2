@@ -32,7 +32,7 @@
 - 创建用户组Family下的普通用户me，并设置普通用户me的密码，密码建议设置为root。
 
   ```
-  useradd -g Family me
+  useradd -g Family -m me
   passwd me
   ```
 
