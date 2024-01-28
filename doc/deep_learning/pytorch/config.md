@@ -22,7 +22,7 @@
 - 使用nvim进入.py文件并写验证程序
 
   ```
-  # 创建一个PyTorch张量并打印出来，如果这一步没有报错，那么就说明MindSpore已经成功安装。
+  # 创建一个PyTorch张量并打印出来，如果这一步没有报错，那么就说明Pytorch已经成功安装。
 
   import torch
 
