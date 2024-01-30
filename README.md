@@ -2,9 +2,10 @@
 
 <div align="center">
   <p>
-    <strong>本仓库是梅科尔工作室IoT组成员们对昇腾的开发经验总结，教程更偏向昇腾的Linux系统的操作,旨在帮助大家更好地学习昇腾，欢迎大家加入我们的交流群（群号：469363175）</strong>
+    <strong>本仓库是梅科尔工作室IoT组成员们对昇腾的开发经验总结，教程更偏向昇腾的Linux系统的操作,旨在帮助大家更好地学习昇腾，欢迎大家加入我们的交流群（群号：469363175）</strong><br>
+    <a href="https://maker-iot-one.github.io/docs/category/1iot-%E6%98%87%E8%85%BE%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B">网页观看此教程，请点击</a>
 
-  [网页观看此教程，请点击](https://maker-iot-one.github.io/docs/category/1iot-%E6%98%87%E8%85%BE%E5%BC%80%E5%8F%91%E6%95%99%E7%A8%8B)
+
   </p>
 </div>
 
