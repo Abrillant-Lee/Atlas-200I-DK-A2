@@ -20,7 +20,7 @@
 - 切换分支为稳定版本:
 
   ```sh
-  git chekout stable
+  git checkout stable
   ```
 
 - 使用cmake进行编译：
